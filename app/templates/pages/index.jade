@@ -1,0 +1,70 @@
+//- index.jade
+extends ./../layout.jade
+
+block page-title
+    title Стартовая страница
+
+block content
+    header
+      #logo-container
+        #logo
+            span.logo-title Redesign 
+            a(href='http://sibnovosti.ru', target='_blank') sibnovosti.ru
+        #subtitle Редизайн портала Sibnovosti.ru - от сложного к простому
+      nav
+        ul
+          li
+            a(href='#') Живой редизайн
+          li
+            a(href='#') Участие в команде
+          li
+            a.bordered(href='mailto:gorandnik@mail.ru') отправить письмо
+    #content
+      section.intro
+        h1
+          | Живой 
+          span.nl
+          | редизайн
+        p
+          | Процесс изменения сайта был постепенным и многоэтаптным. На отдельном шаге изменения  были заметны слабо, что в свою очередь позволяло сохранить лояльность читателей.  Унаследованный CSS-код имел большое количество неиспользуемых классов и свойств, которые в определенный момент времени наградили таблицы стилей повышенной сложностью и значительным весом. Все CSS файлы были переведены в синтаксис SCSS.
+      section.row
+        .col-full
+          h2 Шапка
+          p
+            | Легче всего изменения увидеть на шапке. Именно этот блок в первую очередь попадает на глаза пользователю. Поэтому этой области было уделено особое внимание. С крайней степенью осторожности.
+      section.row
+        .photo-grid
+          a.col-1(href='img/slide-1.jpg', rel='lightbox')
+            img(src='img/slide-1.jpg', alt='Example photo')
+      section.row
+          .col-full
+              h2 Подвал
+              p
+                | Уменьшено число символов в подвале, что сделало его более ненавязчивый и лаконичным. Нижнее полоса с меню сделана с наследованием от верхнего навбара.
+      section.row
+          .col-full
+              h2 Страница публикации
+              p
+                | Концептаульно измена страница с новостью. Убрана трехколоночная сетка, постепенное увеличение размера шрифта. Переработана типографика: пересмотрена стилистика оформления форматированного текста. Подобран баланс интерлиньяжа, отступы для параграфов, стилизованы цитаты. Контарстный и выделяющийся заголовок.
+      section.row
+        .col
+          h2 Noto Sans & Noto Sans Serif
+          p
+            | Шрифты семейства Noto стали заменой для стандартного пакета шрифтов
+        .col
+          h2 Использование SVG и CSS-анимаций
+          p
+            | Едва заметные мелочи ненавязчивой анимацией в комплексе с векторной графикой в SVG
+      section.row
+        .col-full
+          p
+            | © 2015 - on-1.ru 
+            a(href='http://on-1.ru') Gordeev Andrey
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
+    script.
+      if (!window.jQuery)
+      {
+      document.write('<script src="js/vendor/jquery.1.11.min.js"><\\/script>');
+      }
+    script(src='js/vendor/jquery.fluidbox.min.js')
+    script(src='js/main.js')

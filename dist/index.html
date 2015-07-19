@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <title>Стартовая страница</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Краткое описание страницы">
+    <meta name="keywords" content="портфолио, верстка, фронтенд">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/modernizr.custom.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file://-->
+    <!--if lt IE 9-->
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div id="logo-container">
+        <div id="logo"><span class="logo-title">Redesign </span><a href="http://sibnovosti.ru" target="_blank">sibnovosti.ru</a></div>
+        <div id="subtitle">Редизайн портала Sibnovosti.ru - от сложного к простому</div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Живой редизайн</a></li>
+          <li><a href="#">Участие в команде</a></li>
+          <li><a href="mailto:gorandnik@mail.ru" class="bordered">отправить письмо</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="content">
+      <section class="intro">
+        <h1>Живой <span class="nl"></span>редизайн</h1>
+        <p>Процесс изменения сайта был постепенным и многоэтаптным. На отдельном шаге изменения  были заметны слабо, что в свою очередь позволяло сохранить лояльность читателей.  Унаследованный CSS-код имел большое количество неиспользуемых классов и свойств, которые в определенный момент времени наградили таблицы стилей повышенной сложностью и значительным весом. Все CSS файлы были переведены в синтаксис SCSS.</p>
+      </section>
+      <section class="row">
+        <div class="col-full">
+          <h2>Шапка</h2>
+          <p>Легче всего изменения увидеть на шапке. Именно этот блок в первую очередь попадает на глаза пользователю. Поэтому этой области было уделено особое внимание. С крайней степенью осторожности.</p>
+        </div>
+      </section>
+      <section class="row">
+        <div class="photo-grid"><a href="img/slide-1.jpg" rel="lightbox" class="col-1"><img src="img/slide-1.jpg" alt="Example photo"></a></div>
+      </section>
+      <section class="row">
+        <div class="col-full">
+          <h2>Подвал</h2>
+          <p>Уменьшено число символов в подвале, что сделало его более ненавязчивый и лаконичным. Нижнее полоса с меню сделана с наследованием от верхнего навбара.</p>
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-full">
+          <h2>Страница публикации</h2>
+          <p>Концептаульно измена страница с новостью. Убрана трехколоночная сетка, постепенное увеличение размера шрифта. Переработана типографика: пересмотрена стилистика оформления форматированного текста. Подобран баланс интерлиньяжа, отступы для параграфов, стилизованы цитаты. Контарстный и выделяющийся заголовок.</p>
+        </div>
+      </section>
+      <section class="row">
+        <div class="col">
+          <h2>Noto Sans & Noto Sans Serif</h2>
+          <p>Шрифты семейства Noto стали заменой для стандартного пакета шрифтов</p>
+        </div>
+        <div class="col">
+          <h2>Использование SVG и CSS-анимаций</h2>
+          <p>Едва заметные мелочи ненавязчивой анимацией в комплексе с векторной графикой в SVG</p>
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-full">
+          <p>© 2015 - on-1.ru <a href="http://on-1.ru">Gordeev Andrey</a></p>
+        </div>
+      </section>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+      if (!window.jQuery)
+      {
+      document.write('<script src="js/vendor/jquery.1.11.min.js"><\\/script>');
+      }
+    </script>
+    <script src="js/vendor/jquery.fluidbox.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\\/script>')</script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

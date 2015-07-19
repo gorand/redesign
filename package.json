@@ -1,0 +1,19 @@
+{
+  "name": "gulp-project",
+  "version": "0.1.0",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat-css": "*",
+    "gulp-html2jade": "*",
+    "gulp-iconfont": "*",
+    "gulp-imagemin": "*",
+    "gulp-jade": "*",
+    "gulp-minify-css": "*",
+    "gulp-notify": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-webserver": "*",
+    "imagemin-pngquant": "*",
+    "prettify": "*"
+  }
+}
