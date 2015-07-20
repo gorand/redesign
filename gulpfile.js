@@ -62,7 +62,7 @@ gulp.task('scss',  function() {
 
 
 gulp.task('watch', function() {
-   gulp.watch(['app/scss/*.scss', 'app/scss/*/*.scss', 'app/templates/*.jade', 'app/templates/*/*.jade'], ['scss', 'template']);
+   gulp.watch(['app/css/*.scss', 'app/css/**/*.scss', 'app/templates/*.jade', 'app/templates/*/*.jade'], ['scss', 'template']);
 });
 
 // other auxiliary tasks
@@ -84,8 +84,8 @@ gulp.task('tofonts1', function(){
  	.pipe(gulp.dest("dist/fonts/fontawesome"))
  });
 gulp.task('tofonts2', function(){
- 	gulp.src("bower_components/open-sans-fontface/fonts/*")
- 	.pipe(gulp.dest("dist/fonts/open-sans-fontface"))
+ 	gulp.src("bower_components/open-sans-fontface/fonts/**")
+ 	.pipe(gulp.dest("dist/css/fonts/"))
  });
 
 // default task

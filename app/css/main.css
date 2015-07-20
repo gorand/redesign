@@ -1,3 +1,4 @@
+/* line 12, F:/apps/redesign/app/css/_reset.scss */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -17,143 +18,180 @@ time, mark, audio, video {
   vertical-align: baseline;
   background: transparent; }
 
+/* line 21, F:/apps/redesign/app/css/_reset.scss */
 html, body {
   font-size: 100%; }
 
+/* line 26, F:/apps/redesign/app/css/_reset.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
   display: block; }
 
+/* line 31, F:/apps/redesign/app/css/_reset.scss */
 audio, canvas, video {
   display: inline-block; }
 
+/* line 36, F:/apps/redesign/app/css/_reset.scss */
 audio:not([controls]) {
   display: none; }
 
+/* line 41, F:/apps/redesign/app/css/_reset.scss */
 [hidden] {
   display: none; }
 
+/* line 47, F:/apps/redesign/app/css/_reset.scss */
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
+/* line 54, F:/apps/redesign/app/css/_reset.scss */
 html, button, input, select, textarea {
   font-family: sans-serif; }
 
+/* line 60, F:/apps/redesign/app/css/_reset.scss */
 a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px; }
 
+/* line 69, F:/apps/redesign/app/css/_reset.scss */
 a:hover, a:active {
   outline: 0; }
 
+/* line 75, F:/apps/redesign/app/css/_reset.scss */
 abbr[title] {
   border-bottom: 1px dotted; }
 
+/* line 80, F:/apps/redesign/app/css/_reset.scss */
 b, strong {
   font-weight: bold; }
 
+/* line 84, F:/apps/redesign/app/css/_reset.scss */
 blockquote {
   margin: 1em 40px; }
 
+/* line 89, F:/apps/redesign/app/css/_reset.scss */
 dfn {
   font-style: italic; }
 
+/* line 94, F:/apps/redesign/app/css/_reset.scss */
 mark {
   background: #ff0;
   color: #000; }
 
+/* line 101, F:/apps/redesign/app/css/_reset.scss */
 pre, code, kbd, samp {
   font-family: monospace, serif;
   _font-family: 'courier new', monospace;
   font-size: 1em; }
 
+/* line 108, F:/apps/redesign/app/css/_reset.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word; }
 
+/* line 115, F:/apps/redesign/app/css/_reset.scss */
 blockquote, q {
   quotes: none; }
+  /* line 117, F:/apps/redesign/app/css/_reset.scss */
   blockquote:before, blockquote:after, q:before, q:after {
     content: '';
     content: none; }
 
+/* line 123, F:/apps/redesign/app/css/_reset.scss */
 small {
   font-size: 75%; }
 
+/* line 127, F:/apps/redesign/app/css/_reset.scss */
 sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline; }
 
+/* line 134, F:/apps/redesign/app/css/_reset.scss */
 sup {
   top: -0.5em; }
 
+/* line 138, F:/apps/redesign/app/css/_reset.scss */
 sub {
   bottom: -0.25em; }
 
+/* line 143, F:/apps/redesign/app/css/_reset.scss */
 nav ul, nav ol {
   list-style: none;
   list-style-image: none; }
 
+/* line 150, F:/apps/redesign/app/css/_reset.scss */
 img {
   border: 0;
   height: auto;
   max-width: 100%;
   -ms-interpolation-mode: bicubic; }
 
+/* line 158, F:/apps/redesign/app/css/_reset.scss */
 svg:not(:root) {
   overflow: hidden; }
 
+/* line 163, F:/apps/redesign/app/css/_reset.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
+/* line 169, F:/apps/redesign/app/css/_reset.scss */
 legend {
   border: 0;
   padding: 0;
   white-space: normal; }
 
+/* line 175, F:/apps/redesign/app/css/_reset.scss */
 button, input, select, textarea {
   font-size: 100%;
   margin: 0;
   vertical-align: baseline; }
 
+/* line 182, F:/apps/redesign/app/css/_reset.scss */
 button, input {
   line-height: normal; }
 
+/* line 186, F:/apps/redesign/app/css/_reset.scss */
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   cursor: pointer;
   -webkit-appearance: button; }
 
+/* line 192, F:/apps/redesign/app/css/_reset.scss */
 button[disabled], input[disabled] {
   cursor: default; }
 
+/* line 196, F:/apps/redesign/app/css/_reset.scss */
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   padding: 0; }
 
+/* line 201, F:/apps/redesign/app/css/_reset.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box; }
 
+/* line 209, F:/apps/redesign/app/css/_reset.scss */
 input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none; }
 
+/* line 215, F:/apps/redesign/app/css/_reset.scss */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
+/* line 220, F:/apps/redesign/app/css/_reset.scss */
 textarea {
   overflow: auto;
   vertical-align: top; }
 
+/* line 226, F:/apps/redesign/app/css/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
@@ -162,16 +200,19 @@ table {
  * http://neat.bourbon.io
  * Copyright 2012-2014 thoughtbot, inc.
  * MIT License */
+/* line 2, F:/apps/redesign/app/css/neat/grid/_box-sizing.scss */
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+/* line 7, F:/apps/redesign/app/css/neat/grid/_box-sizing.scss */
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit; }
 
+/* line 22, F:/apps/redesign/app/css/_typography.scss */
 body {
   -webkit-font-feature-settings: "kern", "liga", "frac", "pnum";
   -moz-font-feature-settings: "kern", "liga", "frac", "pnum";
@@ -185,6 +226,7 @@ body {
   font-size: 1em;
   line-height: 1.5; }
 
+/* line 37, F:/apps/redesign/app/css/_typography.scss */
 h1,
 h2,
 h3,
@@ -196,45 +238,57 @@ h6 {
   margin: 0;
   color: #fff; }
 
+/* line 44, F:/apps/redesign/app/css/_typography.scss */
 h1 {
   font-size: 2.25em; }
 
+/* line 48, F:/apps/redesign/app/css/_typography.scss */
 h2 {
   font-size: 2em; }
 
+/* line 52, F:/apps/redesign/app/css/_typography.scss */
 h3 {
   font-size: 1.75em; }
 
+/* line 56, F:/apps/redesign/app/css/_typography.scss */
 h4 {
   font-size: 1.5em; }
 
+/* line 60, F:/apps/redesign/app/css/_typography.scss */
 h5 {
   font-size: 1.25em; }
 
+/* line 64, F:/apps/redesign/app/css/_typography.scss */
 h6 {
   font-size: 1em; }
 
+/* line 68, F:/apps/redesign/app/css/_typography.scss */
 p {
   margin: 0 0 0.75em;
   font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif; }
 
+/* line 73, F:/apps/redesign/app/css/_typography.scss */
 a {
   -webkit-transition: color 0.1s linear;
   -moz-transition: color 0.1s linear;
   transition: color 0.1s linear;
   color: #ced9e0;
   text-decoration: none; }
+  /* line 78, F:/apps/redesign/app/css/_typography.scss */
   a:hover {
     color: #9fb5c2;
     border-color: #9fb5c2; }
+  /* line 83, F:/apps/redesign/app/css/_typography.scss */
   a:active, a:focus {
     color: #9fb5c2;
     border-color: #9fb5c2;
     outline: none; }
 
+/* line 90, F:/apps/redesign/app/css/_typography.scss */
 header {
   color: #fff; }
 
+/* line 94, F:/apps/redesign/app/css/_typography.scss */
 hr {
   border-bottom: 1px solid #ddd;
   border-left: none;
@@ -242,29 +296,36 @@ hr {
   border-top: none;
   margin: 1.5em 0; }
 
+/* line 103, F:/apps/redesign/app/css/_typography.scss */
 img,
 picture {
   margin: 0;
   max-width: 100%; }
 
+/* line 108, F:/apps/redesign/app/css/_typography.scss */
 blockquote {
   border-left: 2px solid #ddd;
   color: #fdfdfe;
   margin: 1.5em 0;
   padding-left: 0.75em; }
 
+/* line 115, F:/apps/redesign/app/css/_typography.scss */
 cite {
   color: white;
   font-style: italic; }
+  /* line 119, F:/apps/redesign/app/css/_typography.scss */
   cite:before {
     content: "\2014 \00A0"; }
 
+/* line 1, F:/apps/redesign/app/css/fluidbox/_fluidbox.scss */
 .fluidbox {
   outline: none; }
 
+/* line 4, F:/apps/redesign/app/css/fluidbox/_fluidbox.scss */
 .hidden {
   display: none; }
 
+/* line 7, F:/apps/redesign/app/css/fluidbox/_fluidbox.scss */
 .fluidbox-overlay {
   background-color: rgba(255, 255, 255, 0.85);
   cursor: pointer;
@@ -278,6 +339,7 @@ cite {
   right: 0;
   transition: all 0.25s ease-in-out; }
 
+/* line 20, F:/apps/redesign/app/css/fluidbox/_fluidbox.scss */
 .fluidbox-wrap {
   background-position: center center;
   background-size: cover;
@@ -285,12 +347,14 @@ cite {
   position: relative;
   transition: all 0.25s ease-in-out; }
 
+/* line 27, F:/apps/redesign/app/css/fluidbox/_fluidbox.scss */
 .fluidbox-ghost {
   background-size: 100% 100%;
   background-position: center center;
   position: absolute;
   transition: all 0.25s ease-in-out; }
 
+/* line 33, F:/apps/redesign/app/css/fluidbox/_fluidbox.scss */
 .fluidbox-closed .fluidbox-ghost {
   -webkit-transition-property: top, left, opacity, -webkit-transform;
   -moz-transition-property: top, left, opacity, -moz-transform;
@@ -298,6 +362,7 @@ cite {
   transition-property: top, left, opacity, transform;
   transition-delay: 0, 0, 0.25s, 0; }
 
+/* line 40, F:/apps/redesign/app/css/fluidbox/_fluidbox.scss */
 .fluidbox-closed .fluidbox-wrap img {
   transition-property: opacity;
   transition-delay: .25s;
@@ -393,16 +458,20 @@ cite {
   font-style: italic; }
 
 /* END Extrabold Italic */
+/* line 10, F:/apps/redesign/app/css/main.scss */
 body {
   padding-left: 1em;
   padding-right: 1em; }
 
+/* line 15, F:/apps/redesign/app/css/main.scss */
 a {
   border-bottom: 1px solid #ced9e0; }
 
+/* line 20, F:/apps/redesign/app/css/main.scss */
 a:hover {
   color: #80C9F5; }
 
+/* line 24, F:/apps/redesign/app/css/main.scss */
 header {
   max-width: 68em;
   margin-left: auto;
@@ -421,28 +490,35 @@ header {
   -webkit-transition-delay: 50ms;
   -moz-transition-delay: 50ms;
   transition-delay: 50ms; }
+  /* line 15, F:/apps/redesign/app/css/bourbon/addons/_clearfix.scss */
   header:after {
     content: "";
     display: table;
     clear: both; }
   @media screen and (max-width: 540px) {
+    /* line 24, F:/apps/redesign/app/css/main.scss */
     header {
       margin-top: 2em; } }
+  /* line 40, F:/apps/redesign/app/css/main.scss */
   header #logo-container {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%; }
+    /* line 85, F:/apps/redesign/app/css/neat/grid/_span-columns.scss */
     header #logo-container:last-child {
       margin-right: 0; }
     @media screen and (max-width: 540px) {
+      /* line 40, F:/apps/redesign/app/css/main.scss */
       header #logo-container {
         float: left;
         display: block;
         margin-right: 7.42297%;
         width: 100%; }
+        /* line 85, F:/apps/redesign/app/css/neat/grid/_span-columns.scss */
         header #logo-container:last-child {
           margin-right: 0; } }
+    /* line 47, F:/apps/redesign/app/css/main.scss */
     header #logo-container #logo {
       padding-top: 0.5em;
       font-weight: bold;
@@ -450,28 +526,35 @@ header {
       line-height: 60px;
       letter-spacing: -0.05em;
       float: none; }
+    /* line 57, F:/apps/redesign/app/css/main.scss */
     header #logo-container #subtitle {
       color: #B8A3A6;
       font-size: 18px; }
+  /* line 63, F:/apps/redesign/app/css/main.scss */
   header a {
     color: #80C9F5;
     text-decoration: none;
     border: none; }
+    /* line 68, F:/apps/redesign/app/css/main.scss */
     header a:hover {
       color: #39abef;
       border-color: #39abef; }
+    /* line 73, F:/apps/redesign/app/css/main.scss */
     header a:active, header a:focus {
       color: #39abef;
       border-color: #39abef; }
+  /* line 79, F:/apps/redesign/app/css/main.scss */
   header nav {
     text-align: right;
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 74.41059%; }
+    /* line 85, F:/apps/redesign/app/css/neat/grid/_span-columns.scss */
     header nav:last-child {
       margin-right: 0; }
     @media screen and (max-width: 540px) {
+      /* line 79, F:/apps/redesign/app/css/main.scss */
       header nav {
         text-align: left;
         margin-top: 1em;
@@ -479,23 +562,30 @@ header {
         display: block;
         margin-right: 7.42297%;
         width: 100%; }
+        /* line 85, F:/apps/redesign/app/css/neat/grid/_span-columns.scss */
         header nav:last-child {
           margin-right: 0; } }
+    /* line 89, F:/apps/redesign/app/css/main.scss */
     header nav ul {
       padding-top: 0.5em;
       line-height: 60px; }
+      /* line 94, F:/apps/redesign/app/css/main.scss */
       header nav ul li {
         display: inline-block;
         margin-left: 1em; }
         @media screen and (max-width: 540px) {
+          /* line 94, F:/apps/redesign/app/css/main.scss */
           header nav ul li {
             margin-left: 0;
             margin-right: 1em; } }
+        /* line 103, F:/apps/redesign/app/css/main.scss */
         header nav ul li a {
           font-weight: bold;
           border-bottom: solid 1px #80C9F5; }
+          /* line 106, F:/apps/redesign/app/css/main.scss */
           header nav ul li a:hover {
             border-bottom-color: #98d3f7; }
+        /* line 111, F:/apps/redesign/app/css/main.scss */
         header nav ul li a.bordered {
           border-radius: 0.2em;
           padding: 0.4em;
@@ -503,6 +593,7 @@ header {
           padding-right: 0.8em;
           border: 2px solid #80C9F5; }
 
+/* line 124, F:/apps/redesign/app/css/main.scss */
 #content {
   max-width: 68em;
   margin-left: auto;
@@ -520,22 +611,27 @@ header {
   -webkit-transition-delay: 350ms;
   -moz-transition-delay: 350ms;
   transition-delay: 350ms; }
+  /* line 15, F:/apps/redesign/app/css/bourbon/addons/_clearfix.scss */
   #content:after {
     content: "";
     display: table;
     clear: both; }
+  /* line 134, F:/apps/redesign/app/css/main.scss */
   #content section.intro {
     max-width: 68em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5em; }
+    /* line 15, F:/apps/redesign/app/css/bourbon/addons/_clearfix.scss */
     #content section.intro:after {
       content: "";
       display: table;
       clear: both; }
     @media screen and (max-width: 540px) {
+      /* line 134, F:/apps/redesign/app/css/main.scss */
       #content section.intro {
         margin-bottom: 1em; } }
+    /* line 143, F:/apps/redesign/app/css/main.scss */
     #content section.intro h1 {
       font-size: 8em;
       border-top: 2px solid #fff;
@@ -543,38 +639,47 @@ header {
       margin-top: 1.2em;
       margin-bottom: 1em; }
       @media screen and (max-width: 540px) {
+        /* line 143, F:/apps/redesign/app/css/main.scss */
         #content section.intro h1 {
           font-size: 4em;
           line-height: 1.2em;
           padding-top: 0.4em; } }
+      /* line 156, F:/apps/redesign/app/css/main.scss */
       #content section.intro h1 span.nl {
         display: none; }
         @media screen and (max-width: 540px) {
+          /* line 156, F:/apps/redesign/app/css/main.scss */
           #content section.intro h1 span.nl {
             display: block; } }
+    /* line 165, F:/apps/redesign/app/css/main.scss */
     #content section.intro p {
       font-size: 2.0em;
       line-height: 1.5em;
       letter-spacing: 0.02em; }
+  /* line 172, F:/apps/redesign/app/css/main.scss */
   #content section.row {
     max-width: 68em;
     margin-left: auto;
     margin-right: auto;
     padding-top: 2em;
     padding-bottom: 5em; }
+    /* line 15, F:/apps/redesign/app/css/bourbon/addons/_clearfix.scss */
     #content section.row:after {
       content: "";
       display: table;
       clear: both; }
+    /* line 178, F:/apps/redesign/app/css/main.scss */
     #content section.row h2 {
       font-size: 1.8em;
       line-height: 1.45;
       font-weight: 400;
       color: #80C9F5;
       margin-bottom: 0.05em; }
+    /* line 186, F:/apps/redesign/app/css/main.scss */
     #content section.row p {
       font-size: 1.2em;
       line-height: 1.6em; }
+    /* line 191, F:/apps/redesign/app/css/main.scss */
     #content section.row .col, #content section.row .col-full {
       float: left;
       display: block;
@@ -583,31 +688,39 @@ header {
       border-top: 2px solid #ced9e0;
       padding-top: 1em;
       padding-bottom: 3em; }
+      /* line 85, F:/apps/redesign/app/css/neat/grid/_span-columns.scss */
       #content section.row .col:last-child, #content section.row .col-full:last-child {
         margin-right: 0; }
       @media screen and (max-width: 540px) {
+        /* line 191, F:/apps/redesign/app/css/main.scss */
         #content section.row .col, #content section.row .col-full {
           float: left;
           display: block;
           margin-right: 7.42297%;
           width: 100%; }
+          /* line 85, F:/apps/redesign/app/css/neat/grid/_span-columns.scss */
           #content section.row .col:last-child, #content section.row .col-full:last-child {
             margin-right: 0; } }
+    /* line 202, F:/apps/redesign/app/css/main.scss */
     #content section.row .col-full {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 100%; }
+      /* line 85, F:/apps/redesign/app/css/neat/grid/_span-columns.scss */
       #content section.row .col-full:last-child {
         margin-right: 0; }
       @media screen and (max-width: 540px) {
+        /* line 202, F:/apps/redesign/app/css/main.scss */
         #content section.row .col-full {
           float: left;
           display: block;
           margin-right: 7.42297%;
           width: 100%; }
+          /* line 85, F:/apps/redesign/app/css/neat/grid/_span-columns.scss */
           #content section.row .col-full:last-child {
             margin-right: 0; } }
+  /* line 210, F:/apps/redesign/app/css/main.scss */
   #content .photo-grid {
     display: -webkit-box;
     display: -moz-box;
@@ -628,25 +741,32 @@ header {
     -o-justify-content: space-between;
     justify-content: space-between;
     -ms-flex-pack: justify; }
+    /* line 216, F:/apps/redesign/app/css/main.scss */
     #content .photo-grid a {
       margin-bottom: 20px;
       border: none;
       text-decoration: none; }
+    /* line 222, F:/apps/redesign/app/css/main.scss */
     #content .photo-grid a.col-1 {
       width: 100%; }
+    /* line 226, F:/apps/redesign/app/css/main.scss */
     #content .photo-grid a.col-2 {
       width: 49%;
       width: calc(50% - 12px); }
+    /* line 230, F:/apps/redesign/app/css/main.scss */
     #content .photo-grid a.col-3 {
       width: 32%;
       width: calc(33.33333% - 16px); }
     @media screen and (max-width: 540px) {
+      /* line 235, F:/apps/redesign/app/css/main.scss */
       #content .photo-grid a {
         margin-bottom: 10px; }
+      /* line 239, F:/apps/redesign/app/css/main.scss */
       #content .photo-grid a.col-2 {
         width: 49%;
         width: calc(50% - 7px); } }
 
+/* line 248, F:/apps/redesign/app/css/main.scss */
 .loaded header {
   -webkit-transform: none;
   -moz-transform: none;
@@ -655,6 +775,7 @@ header {
   transform: none;
   opacity: 1; }
 
+/* line 254, F:/apps/redesign/app/css/main.scss */
 .loaded #content {
   -webkit-transform: none;
   -moz-transform: none;
@@ -662,3 +783,5 @@ header {
   -o-transform: none;
   transform: none;
   opacity: 1; }
+
+/*# sourceMappingURL=main.css.map */
