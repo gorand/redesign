@@ -13,7 +13,7 @@
     "gulp-rename": "*",
     "gulp-sass": "*",
     "gulp-webserver": "*",
-    "imagemin-pngquant": "*",
+    "imagemin-pngquant": "^4.1.2",
     "prettify": "*"
   }
 }
