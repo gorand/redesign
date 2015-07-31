@@ -537,11 +537,11 @@ header {
       #content section.intro {
         margin-bottom: 1em; } }
     #content section.intro h1 {
-      font-size: 8em;
+      font-size: 7.4em;
       border-top: 2px solid #fff;
       letter-spacing: -0.05em;
-      margin-top: 1.2em;
-      margin-bottom: 1em; }
+      margin-top: 0.8em;
+      margin-bottom: 0.5em; }
       @media screen and (max-width: 540px) {
         #content section.intro h1 {
           font-size: 4em;
@@ -553,8 +553,8 @@ header {
           #content section.intro h1 span.nl {
             display: block; } }
     #content section.intro p {
-      font-size: 2.0em;
-      line-height: 1.5em;
+      font-size: 1.72em;
+      line-height: 1.46em;
       letter-spacing: 0.02em; }
   #content section.row {
     max-width: 68em;
