@@ -3,6 +3,7 @@ var gulp = require('gulp'),
 	sass = require('gulp-sass'),
 	html2jade = require('gulp-html2jade'),
 	webserver = require('gulp-webserver'),
+	ghPages = require("gulp-gh-pages"),
 	imagemin = require('gulp-imagemin'),
 	pngquant = require('imagemin-pngquant'),
 	iconfont = require('gulp-iconfont'),
@@ -17,6 +18,12 @@ gulp.task('webserver', function(){
       		open: true
 		})
 	);
+});
+
+
+gulp.task('deploy', function() {
+  return gulp.src('./dist/**/*')
+    .pipe(ghPages());
 });
 
 gulp.task('transfer', function(){
