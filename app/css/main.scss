@@ -8,254 +8,275 @@
 @import "../../bower_components/open-sans-fontface/sass/open-sans";
 
 body {
-	padding-left: 1em;
-	padding-right: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 a {
-	border-bottom: 1px solid $base-font-color;
+    border-bottom: 1px solid $base-font-color;
 
 }
 
 a:hover {
-	color: $base-accent-color;
+    color: $base-accent-color;
 }
 
 header {
 
-	@include outer-container;
+    @include outer-container;
 
-	margin-top: 4em;
-	border-top: $header-border;
+    margin-top: 4em;
+    border-top: $header-border;
 
-	@include media($mobile) {
-		margin-top: 2em;
-	}
+    @include media($mobile) {
+        margin-top: 2em;
+    }
 
-	opacity: 0;
-	@include transform(translateY(50px));
-	@include transition(all 1200ms ease);
-	@include transition-delay(50ms);
+    opacity: 0;
+    @include transform(translateY(50px));
+    @include transition(all 1200ms ease);
+    @include transition-delay(50ms);
 
-	#logo-container {
-		@include span-columns(6);
+    #logo-container {
+        @include span-columns(6);
 
-		@include media($mobile) {
-			@include span-columns(4);
-		}
+        @include media($mobile) {
+            @include span-columns(4);
+        }
 
-		#logo {
+        #logo {
 
-			padding-top: 0.5em;
-			font-weight: bold;
-			font-size: 48px;
-			line-height: 60px;
-			letter-spacing: -0.05em;
-			float: none;
-		}
+            padding-top: 0.5em;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 60px;
+            letter-spacing: -0.05em;
+            float: none;
+        }
 
-		#subtitle {
-			color: $base-footer-font-color;
-			font-size: 18px;
-		}
-	}
+        #subtitle {
+            color: $base-footer-font-color;
+            font-size: 18px;
+        }
+    }
 
-	a {
-		color: $base-logo-link-color;
-		text-decoration: none;
-		border: none;
+    a {
+        color: $base-logo-link-color;
+        text-decoration: none;
+        border: none;
 
-		&:hover {
-			color: $base-logo-hover-link-color;
-			border-color: $base-logo-hover-link-color;
-		}
+        &:hover {
+            color: $base-logo-hover-link-color;
+            border-color: $base-logo-hover-link-color;
+        }
 
-		&:active, &:focus {
-			color: $base-logo-hover-link-color;
-			border-color: $base-logo-hover-link-color;
-		}
-	}
+        &:active, &:focus {
+            color: $base-logo-hover-link-color;
+            border-color: $base-logo-hover-link-color;
+        }
+    }
 
-	nav {
+    nav {
 
-		text-align: right;
-		@include span-columns(9);
+        text-align: right;
+        @include span-columns(9);
 
-		@include media($mobile) {
-			text-align: left;
-			margin-top: 1em;
-			@include span-columns(4);
-		}
-		ul {
+        @include media($mobile) {
+            text-align: left;
+            margin-top: 1em;
+            @include span-columns(4);
+        }
+        ul {
 
-			padding-top: 0.5em;
-			line-height: 60px; 
+            padding-top: 0.5em;
+            line-height: 60px; 
 
-			li {
-				display: inline-block;
-				margin-left: 1em;
+            li {
+                display: inline-block;
+                margin-left: 1em;
 
-				@include media($mobile) {
-					margin-left: 0;
-					margin-right: 1em;
-				}
+                @include media($mobile) {
+                    margin-left: 0;
+                    margin-right: 1em;
+                }
 
-				a {
-					font-weight: bold;
+                a {
+                    font-weight: bold;
                     border-bottom: solid 1px $base-accent-color;
                     &:hover{
                         border-bottom-color: lighten($base-accent-color, 5)
                     }
-				}
+                }
 
-				a.bordered {
-					border-radius: 0.2em;
-					padding: 0.4em;
-					padding-left: 0.8em;
-					padding-right: 0.8em;
-					border: $header-border;
-				}
-			}
-		}
-	}
+                a.bordered {
+                    border-radius: 0.2em;
+                    padding: 0.4em;
+                    padding-left: 0.8em;
+                    padding-right: 0.8em;
+                    border: $header-border;
+                }
+            }
+        }
+    }
 
 }
 
 #content {
 
-	@include outer-container;
-	padding-bottom: 2em;
+    @include outer-container;
+    padding-bottom: 2em;
 
-	opacity: 0;
-	@include transform(translateY(50px));
-	@include transition(all 1200ms ease);
-	@include transition-delay(350ms);
+    opacity: 0;
+    @include transform(translateY(50px));
+    @include transition(all 1200ms ease);
+    @include transition-delay(350ms);
 
-	section.intro {
-	 
-		@include outer-container;
-		margin-bottom: 5em;
+    section.intro {
+     
+        @include outer-container;
+        margin-bottom: 5em;
 
-		@include media($mobile) {
-			margin-bottom: 1em;
-		}
+        @include media($mobile) {
+            margin-bottom: 1em;
+        }
 
-		h1 {
-			font-size: 7.4em;
-			border-top: $heading-border;
-			letter-spacing: -0.05em;
-			margin-top: 0.8em;
-			margin-bottom: 0.5em;
+        h1 {
+            font-size: 7.4em;
+            border-top: $heading-border;
+            letter-spacing: -0.05em;
+            margin-top: 0.8em;
+            margin-bottom: 0.5em;
 
-			@include media($mobile) {
-				font-size: 4em;
-				line-height: 1.2em;
-				padding-top: 0.4em;
-			}
+            @include media($mobile) {
+                font-size: 4em;
+                line-height: 1.2em;
+                padding-top: 0.4em;
+            }
 
-			span.nl {
-				display: none;
+            span.nl {
+                display: none;
 
-				@include media($mobile) {
-					display: block;
-				}
-			}
-		}
+                @include media($mobile) {
+                    display: block;
+                }
+            }
+        }
 
-		p {
-			font-size: 1.72em;
-			line-height: 1.46em;
-			letter-spacing: 0.02em;
-		}
-	}
+        p {
+            font-size: 1.72em;
+            line-height: 1.46em;
+            letter-spacing: 0.02em;
+        }
+    }
 
-	section.row {
+    section.row {
 
-		@include outer-container;
-		padding-top: 2em;
-		padding-bottom: 5em;
+        @include outer-container;
+        padding-top: 2em;
+        padding-bottom: 5em;
 
-		h2 {
-			font-size: 1.8em;
-			line-height: 1.45;
-			font-weight: 400;
-			color: $base-accent-color;
-			margin-bottom: 0.05em;
-		}
+        h2 {
+            font-size: 1.8em;
+            line-height: 1.45;
+            font-weight: 400;
+            color: $base-accent-color;
+            margin-bottom: 0.05em;
+        }
 
-		p {
-			font-size: 1.2em;
-			line-height: 1.6em;
-		}
+        p {
+            font-size: 1.2em;
+            line-height: 1.6em;
+        }
 
-		.col,.col-full {
-			@include span-columns(6);
-			border-top: $section-border;
-			padding-top: 1em;
-			padding-bottom: 3em;
-			
-			@include media($mobile) {
-				@include span-columns(4);
-			}
-		}
+        .col,.col-full {
+            @include span-columns(6);
+            border-top: $section-border;
+            padding-top: 1em;
+            padding-bottom: 3em;
+            
+            @include media($mobile) {
+                @include span-columns(4);
+            }
+        }
 
-		.col-full {
-			@include span-columns(12);
-			@include media($mobile) {
-				@include span-columns(4);
-			}
-		}
-	}
+        .col-full {
+            @include span-columns(12);
+            @include media($mobile) {
+                @include span-columns(4);
+            }
+        }
+    }
 
-	.photo-grid {
+    .photo-grid {
 
-		@include display(flex);
-		@include flex-flow(row wrap);
-		@include justify-content(space-between);
+        @include display(flex);
+        @include flex-flow(row wrap);
+        @include justify-content(space-between);
 
-		a {
-			margin-bottom: 20px;
-			border: none;
-			text-decoration: none;
-		}
+        a {
+            margin-bottom: 20px;
+            border: none;
+            text-decoration: none;
+        }
 
-		a.col-1 {
-			width: 100%;
-		}
+        a.col-1 {
+            width: 100%;
+        }
 
-		a.col-2 {
-			width: 49%; width: calc(50% - 12px);
-		}
+        a.col-2 {
+            width: 49%; width: calc(50% - 12px);
+        }
 
-		a.col-3 {
-			width: 32%; width: calc(33.33333% - 16px);
-		}
+        a.col-3 {
+            width: 32%; width: calc(33.33333% - 16px);
+        }
 
-		@include media($mobile) {
-			a {
-				margin-bottom: 10px;
-			}
+        @include media($mobile) {
+            a {
+                margin-bottom: 10px;
+            }
 
-			a.col-2 {
-				width: 49%; width: calc(50% - 7px);
-			}
-		}
-	}
+            a.col-2 {
+                width: 49%; width: calc(50% - 7px);
+            }
+        }
+    }
+    .next{
+        &-down{
+            &:after{
+                content: url(../img/arrow_down.svg);
+                display: block;
+                width: 48px;
+                height: 14px;
+                margin: 6px auto 0;
+            }
+        }
+        &-right{
+            &:after{
+                content: url(../img/arrow_right.svg);
+                display: block;
+                float: right;
+                width: 22px;
+                height: 48px;
+                margin: 28% 0 0;            
+            }
+        }
+    }
 }
 
 .loaded {
 
-	header {
+    header {
 
-		@include transform(none);
-		opacity: 1;
-	}
+        @include transform(none);
+        opacity: 1;
+    }
 
-	#content {
+    #content {
 
 
-		@include transform(none);
-		opacity: 1;
+        @include transform(none);
+        opacity: 1;
 
-	}
+    }
 }
