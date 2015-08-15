@@ -646,6 +646,19 @@ header {
       #content .photo-grid a.col-2 {
         width: 49%;
         width: calc(50% - 7px); } }
+  #content .next-down:after {
+    content: url(../img/arrow_down.svg);
+    display: block;
+    width: 48px;
+    height: 14px;
+    margin: 6px auto 0; }
+  #content .next-right:after {
+    content: url(../img/arrow_right.svg);
+    display: block;
+    float: right;
+    width: 22px;
+    height: 48px;
+    margin: 28% 0 0; }
 
 .loaded header {
   -webkit-transform: none;
