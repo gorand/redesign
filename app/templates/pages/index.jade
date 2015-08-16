@@ -2,7 +2,7 @@
 extends ./../layout.jade
 
 block page-title
-    title Стартовая страница
+    title Постепенный редизайн sibnovosti.ru
 
 block content
     header
@@ -55,10 +55,14 @@ block content
           .col-full
               p
                 | Уменьшено число символов в подвале, что сделало его более ненавязчивым и лаконичным. Нижняя полоса меню сделана с наследованием от верхнего элемента, имеющего навигацию по региональным поддоменам сайта.
+              em Первоначальная версия
+              .photo-grid
+                a.col-1.next-down(href='img/footer_v1.jpg', rel='lightbox')
+                  img(src='img/footer_v1.jpg', alt='Подвал')
               em Актуальная версия
               .photo-grid
-                a.col-1(href='img/slide-5.jpg', rel='lightbox')
-                  img(src='img/slide-5.jpg', alt='Подвал')
+                a.col-1(href='img/footer_current.jpg', rel='lightbox')
+                  img(src='img/footer_current.jpg', alt='Подвал')
 
       section.row
           .col

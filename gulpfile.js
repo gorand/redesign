@@ -26,14 +26,6 @@ gulp.task('deploy', function() {
     .pipe(ghPages());
 });
 
-gulp.task('transfer', function(){
-	gulp.src(['app/js/**/*.js', 'app/js/*.js'])
-		.pipe(gulp.dest('dist/js'));
-	gulp.src('app/img/*.*')
-	.pipe(gulp.dest('dist/img'))
-
-});
-
 gulp.task('template', function(){
 	gulp.src('app/templates/pages/*.jade')
 		.pipe(jade({
@@ -96,7 +88,7 @@ gulp.task('tofonts2', function(){
  });
 
 // default task
-gulp.task('default', ['webserver', 'scss', 'template', 'transfer', 'watch']);
+gulp.task('default', ['webserver', 'scss', 'template', 'watch']);
 
 // other tasks
 gulp.task('update', ['scss', 'template', 'image', 'fonts']);
