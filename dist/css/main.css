@@ -179,7 +179,7 @@ body {
   font-feature-settings: "kern", "liga", "frac", "pnum";
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  background-color: #1D243A;
+  background-color: #23293C;
   color: #ced9e0;
   font-family: "Open Sans", Arial, Verdana, Helvetica, sans-serif;
   font-size: 1em;
@@ -451,7 +451,7 @@ header {
       letter-spacing: -0.05em;
       float: none; }
     header #logo-container #subtitle {
-      color: #B8A3A6;
+      color: #CAE8FB;
       font-size: 18px; }
   header a {
     color: #80C9F5;
