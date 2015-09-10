@@ -11,12 +11,12 @@ block content
             span.logo-title Redesign 
             a(href='http://sibnovosti.ru', target='_blank') sibnovosti.ru
         #subtitle Редизайн портала Sibnovosti.ru - от сложного к простому
-      nav
-        ul
-          li
-            a(href='#') Живой редизайн
-          li
-            a.bordered(href='#') Участие в команде
+      //- nav
+      //-   ul
+      //-     li
+      //-       a(href='#') Живой редизайн
+      //-     li
+      //-       a.bordered(href='#') Участие в команде
     #content
       section.intro
         h1
@@ -74,13 +74,13 @@ block content
             | Концептаульно измена страница с новостью. Убрана трехколоночная сетка; происходило постепенное увеличение размера шрифта. Переработана типографика: полностью пересмотрено оформление отформатированного текста публикации. Подобран баланс интерлиньяжа, отступы для параграфов, стилизованы цитаты. Контарстный, крупный заголовок.
           .col
             .photo-grid
-              a.col-1(href='img/slide-3.jpg', rel='lightbox')
-                img(src='img/slide-3.jpg', alt='Сраница публикации')
+              a.col-1(href='img/show_old.jpg', rel='lightbox')
+                img(src='img/show_old.jpg', alt='Сраница публикации')
             em Изначальная версия
           .col
             .photo-grid
-              a.col-1(href='img/slide-3_current.jpg', rel='lightbox')
-                img(src='img/slide-3_current.jpg', alt='Сраница публикации')
+              a.col-1(href='img/show_current.jpg', rel='lightbox')
+                img(src='img/show_current.jpg', alt='Сраница публикации')
             em Актуальная версия
 
       section.row
@@ -119,14 +119,20 @@ block content
             em Актуальная версия
 
       section.row
+          h2 Поддомен федерального сайта
+          p
+            | Проводились изменения дизайна в несколько подходов для достижения общей стилистики с региональными поддоменами.
           .col
-              h2 Поддомен федерального сайта
-              p
-                | Проводились изменения дизайна в несколько подходов для достижения общей стилистики с региональными поддоменами.
-            em версия 1
             .photo-grid
-              a.col-2(href='img/slide-4.jpg', rel='lightbox')
-                img(src='img/slide-4.jpg', alt='Федеральный поддомен')
+              a.col-1(href='img/fed_v1.jpg', rel='lightbox')
+                img(src='img/fed_v1.jpg', alt='Федеральный поддомен')
+            em Версия №1
+          .col
+            .photo-grid
+              a.col-1(href='img/fed_v2.jpg', rel='lightbox')
+                img(src='img/fed_v2.jpg', alt='Федеральный поддомен')
+            em Версия №2
+
 
       section.row
           .col-full
