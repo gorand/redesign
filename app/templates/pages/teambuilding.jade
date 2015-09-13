@@ -1,0 +1,38 @@
+//- index.jade
+extends ./../layout.jade
+
+block page-title
+    title Работа в команде
+
+block content
+    header
+      #logo-container
+        #logo
+            span.logo-title Redesign 
+            a(href='http://sibnovosti.ru', target='_blank') sibnovosti.ru
+        #subtitle Редизайн портала Sibnovosti.ru - от сложного к простому
+      nav
+        ul
+          li
+            a(href='/') Живой редизайн
+    #content
+      section.row
+        h2 Визуализация история коммитов
+        .col-full
+          p
+            | История моих коммитов с марта по апрель 2015 года
+          .photo-grid
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/HaYp1jOjOww?rel=0" frameborder="0" allowfullscreen></iframe>
+      section.row
+        .col-full
+          p
+            | © 2015 - on-1.ru 
+            a(href='http://on-1.ru') Gordeev Andrey
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
+    script.
+      if (!window.jQuery)
+      {
+      document.write('<script src="js/vendor/jquery.1.11.min.js"><\\/script>');
+      }
+    script(src='js/vendor/jquery.fluidbox.min.js')
+    script(src='js/main.js')
