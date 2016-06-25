@@ -6,7 +6,6 @@ var gulp = require('gulp'),
 	ghPages = require("gulp-gh-pages"),
 	imagemin = require('gulp-imagemin'),
 	pngquant = require('imagemin-pngquant'),
-	iconfont = require('gulp-iconfont'),
 	notify = require('gulp-notify');
 
 
@@ -30,7 +29,7 @@ gulp.task('template', function(){
 	gulp.src('app/templates/pages/*.jade')
 		.pipe(jade({
 			pretty: true
-		}))	
+		}))
 		.pipe(gulp.dest('dist'))
 });
 
@@ -63,19 +62,6 @@ gulp.task('scss',  function() {
 gulp.task('watch', function() {
    gulp.watch(['app/css/*.scss', 'app/css/**/*.scss', 'app/templates/*.jade', 'app/templates/*/*.jade'], ['scss', 'template']);
 });
-
-// other auxiliary tasks
- gulp.task('fonts', function(){
- 	gulp.src("app/icons/*.svg")
- 	.pipe(iconfont({
- 	  fontName: 'iconproject',
- 	  appendCodepoints: true  
- 	}))
- 	.on('codepoints', function(codepoints, options){
- 		console.log(codepoints, options);
- 	})
- 	.pipe(gulp.dest("dist/fonts/iconproject"))
- });
 
 // include fonts
 gulp.task('tofonts1', function(){
