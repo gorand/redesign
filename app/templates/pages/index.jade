@@ -8,7 +8,7 @@ block content
     header
       #logo-container
         #logo
-            span.logo-title Redesign
+            span.logo-title Redesign 
             a(href='http://sibnovosti.ru', target='_blank') sibnovosti.ru
         #subtitle Редизайн портала Sibnovosti.ru - от сложного к простому
       nav
@@ -20,7 +20,7 @@ block content
     #content
       section.intro
         h1#redesign
-          | Живой
+          | Живой 
           span.nl
           | редизайн
         p
@@ -143,7 +143,6 @@ block content
                 img(src='img/fed_current.jpg', alt='Федеральный поддомен')
             em Актуальная версия
 
-
       section.row
           .col-full
               h2 Адаптивность шаблона
@@ -162,17 +161,31 @@ block content
             | Едва заметные мелочи и ненавязчивая анимациия использовались в комплексе с векторной графикой формата SVG
 
       section.row
-          .col-full
-              h2 Переход с CSS на SASS
-              p
-                | Рефакторинг существующих CSS файлов. Постепенный переход на препроцессор SASS: использование переменных для основной цветовой палитры сайта,
-                | а также для указания контрольных точек при адаптивном поведении. Использование миксинов и дирректив @import, раздаление стилей на отдельные файлы (layout, header, footer и т.п.)
+        .col-full
+            h2 Анимации и переходы
+            p
+              | Примеры анимаций по событию наведения на элемент
+            .photo-grid
+              a.col-3(href='img/animate_01.gif', rel='lightbox')
+                img(src='img/animate_01.gif', alt='Анимации')
+              a.col-3(href='img/animate_02.gif', rel='lightbox')
+                img(src='img/animate_02.gif', alt='Анимации')
+              a.col-3(href='img/animate_03.gif', rel='lightbox')
+                img(src='img/animate_03.gif', alt='Анимации')
+
+      section.row
+        .col-full
+            h2 Переход с CSS на SASS
+            p
+              | Рефакторинг существующих CSS файлов. Постепенный переход на препроцессор SASS: использование переменных для основной цветовой палитры сайта,
+              | а также для указания контрольных точек при адаптивном поведении. Использование миксинов и дирректив @import, раздаление стилей на отдельные файлы (layout, header, footer и т.п.)
 
       section.row
         .col-full
           p
-            | © 2016 - on-1.ru 
-            a(href='http://on-1.ru') Gordeev Andrey
+            | © 2016 - on-1.ru
+            a(href='http://on-1.ru') 
+              | Gordeev Andrey
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
     script.
       if (!window.jQuery)
